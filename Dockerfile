@@ -22,4 +22,4 @@ COPY . .
 EXPOSE 5000
 
 # Command to run the application
-CMD ["python3", "tookie-osint"]
+CMD ["python3", "webui/webui.py"]
